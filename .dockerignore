@@ -1,0 +1,30 @@
+# Build artifacts
+target/
+*.jar
+*.war
+
+# Environment variables and secrets
+.env
+.env.*
+*.key
+*.secret
+credentials.json
+
+# Git
+.git
+.gitignore
+.dockerignore
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.settings/
+.classpath
+.project
+
+# OS metadata
+.DS_Store
+Thumbs.db
